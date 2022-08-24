@@ -13,16 +13,15 @@ console.log(document.querySelector('.guess').value);
 
 // set secret  random number to value btw 1 -20
 // / hold score outside of function bec if we only stored in the dom the app wont know the number
-const secretNumber = Math.trunc(Math.random() * 20) + 1;
+let secretNumber = Math.trunc(Math.random() * 20) + 1;
 
-// test to display random secretNumber on page
-document.querySelector('.number').textContent = secretNumber;
+
 
 //  set intial score to 20, use let bec. value will change. it is a 'STATE VARIALBE' bec it hold state of app
 // hold score outside of function bec if we only stored in the dom the app wont know the score
 let score = 20;
 
-// click check button to guess secret num
+// Start Game: enter value input & click check button to guess secret number 
 document.querySelector('.check').addEventListener('click', function () {
   const guess = Number(document.querySelector('.guess').value);
   console.log(guess, typeof guess);
@@ -34,6 +33,8 @@ document.querySelector('.check').addEventListener('click', function () {
     // When player wins
   } else if (guess === secretNumber) {
     document.querySelector('.message').textContent = '....✅ Correct Number !';
+    // test to display random secretNumber on page
+    document.querySelector('.number').textContent = secretNumber;
     
     document.querySelector('body').style.backgroundColor = '#60b347';
 
@@ -66,3 +67,18 @@ document.querySelector('.check').addEventListener('click', function () {
     }
   }
 });
+
+// Reset the game ,score, & CSS
+document.querySelector('.again').addEventListener('click', function(){
+    secretNumber = Math.trunc(Math.random() * 20) + 1;
+    score = 20;
+    document.querySelector('.score').textContent = score;
+    
+    document.querySelector('body').style.backgroundColor = '#222';
+    document.querySelector('.number').textContent = '?';
+    document.querySelector('.message').textContent = 'Start guessing...';
+    document.querySelector('.number').style.width = '15rem'
+    
+    document.querySelector('.guess').value = '';
+});
+
