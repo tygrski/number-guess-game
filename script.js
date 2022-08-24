@@ -6,6 +6,12 @@ let highScore = 0;
 //  set intial score to 20, use let bec. value will change. it is a 'STATE VARIALBE' bec it hold state of app
 // hold score outside of function bec if we only stored in the dom the app wont know the score
 let score = 20;
+
+// display text message
+const displayMessage = function(message) {
+   document.querySelector('.message').textContent = message;
+}
+
 let playerName = document.querySelector('.playername').textContent;
 // Start Game: enter value input & click check button to guess secret number
 document.querySelector('.check').addEventListener('click', function () {
@@ -14,11 +20,13 @@ document.querySelector('.check').addEventListener('click', function () {
 
   // When there is no input
   if (!guess) {
-    document.querySelector('.message').textContent = '....No Number📪';
+    // document.querySelector('.message').textContent = '....No Number📪';
+    displayMessage('....No Number📪');
 
     // When player wins
   } else if (guess === secretNumber) {
-    document.querySelector('.message').textContent = '....✅ Correct Number !';
+    // document.querySelector('.message').textContent = '....✅ Correct Number !';
+    displayMessage('....✅ Correct Number !');
     // test to display random secretNumber on page
     document.querySelector('.number').textContent = secretNumber;
 
@@ -37,13 +45,15 @@ document.querySelector('.check').addEventListener('click', function () {
 // When guess is wrong
   } else if(guess !== secretNumber){
     if (score > 1) {
-        document.querySelector('.message').textContent = guess > secretNumber ?'....☝🏽Too high !' : '....👇🏽Too low !' ;
+        // document.querySelector('.message').textContent = guess > secretNumber ?'....☝🏽Too high !' : '....👇🏽Too low !' ;
+        displayMessage(guess > secretNumber ?'....☝🏽Too high !' : '....👇🏽Too low !')
         score--;
         document.querySelector('.score').textContent = score;
   
         //   Out of guesses
       } else {
-        document.querySelector('.message').textContent = 'You lost the game🤬';
+        // document.querySelector('.message').textContent = 'You lost the game🤬';
+        displayMessage('You lost the game🤬');
         document.querySelector('.score').textContent = 0;
       }
 
@@ -83,7 +93,8 @@ document.querySelector('.again').addEventListener('click', function () {
 
   document.querySelector('body').style.backgroundColor = '#222';
   document.querySelector('.number').textContent = '?';
-  document.querySelector('.message').textContent = 'Start guessing...';
+//   document.querySelector('.message').textContent = 'Start guessing...';
+  displayMessage('Start guessing...');
   document.querySelector('.number').style.width = '15rem';
   document.querySelector('.guess').value = '';
 });
