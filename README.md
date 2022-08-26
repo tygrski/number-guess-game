@@ -1,6 +1,6 @@
 # Number Guessing Game
 
-Live Link
+Live Link: https://tygrski.github.io/number-guess-game/
 
 
 ## Table of Contents
@@ -17,9 +17,9 @@ Features to be implemented:
 
 ## Installation
 
-Users must install <a href="https://nodejs.org/en/" target="_blank">Node.js</a> and download the code from the <a href="https://github.com/tygrski/snake-game" target="_blank">github repo</a>
+download the code from the <a href="git@github.com:tygrski/number-guess-game.git" target="_blank">github repo</a>
 
 ## Usage
 
 In your terminal of you IDE , open a node terminal and rin "live-server"
-Use your mouse up, down, left and right arrows to move the snake to chase the food
+Enter your guesss in the 
