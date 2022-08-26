@@ -19,7 +19,7 @@ Saving the users name. User input is added but needs update to save and display 
 
 download the code from the repo : https://tygrski.github.io/number-guess-game/
 
-You should see a display similar to this in your browser
+Below is an image of the display,  you should see a similar display in your browser     👇🏽👇🏽👇🏽
 ![number-game](https://user-images.githubusercontent.com/77369211/186801019-cc2dbadc-bbf3-46f5-82b7-092b532be5ba.jpg)
 
 ## Usage
