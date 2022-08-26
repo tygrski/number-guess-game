@@ -25,7 +25,7 @@ You should see a display similar to this in your browser
 ## Usage
 
 In your terminal of you IDE , open a node terminal and run "live-server"
-Enter your guesss in the choces box. Try guessing until you win🏆 or your points run out😑. If you beat the highest score🥇, your score will replace the high score. Refreshing the browser will erese all highest scores.<br> ![YoullNeverGuessItJaredDinesGIF](https://user-images.githubusercontent.com/77369211/186801336-8cfa29fe-c938-42e4-978f-da8827993e2c.gif ![YoullNeverGuessItJaredDinesGIF](https://user-images.githubusercontent.com/77369211/186801336-8cfa29fe-c938-42e4-978f-da8827993e2c.gif)<br>
+Enter your guesss in the choces box. Try guessing until you win🏆 or your points run out😑. If you beat the highest score🥇, your score will replace the high score. Refreshing the browser will erese all highest scores.<br> ![YoullNeverGuessItJaredDinesGIF](https://user-images.githubusercontent.com/77369211/186801336-8cfa29fe-c938-42e4-978f-da8827993e2c.gif <br>
 ![CodingDeveloperCodeGIF](https://user-images.githubusercontent.com/77369211/186802114-e820dddb-b818-4cb3-9bc4-d746d2085058.gif)
 ![CodingDeveloperCodeGIF](https://user-images.githubusercontent.com/77369211/186802114-e820dddb-b818-4cb3-9bc4-d746d2085058.gif)
 
