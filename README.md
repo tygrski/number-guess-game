@@ -25,4 +25,4 @@ You should see a display similar to this in your browser
 ## Usage
 
 In your terminal of you IDE , open a node terminal and run "live-server"
-Enter your guesss in the choces box. Try guessing until you win🏆 or your points run out😑. If you beat the highest score🥇, your score will replace the high score. Refreshing the browser will erese all highest scores. ![YoullNeverGuessItJaredDinesGIF](https://user-images.githubusercontent.com/77369211/186801336-8cfa29fe-c938-42e4-978f-da8827993e2c.gif)
+Enter your guesss in the choces box. Try guessing until you win🏆 or your points run out😑. If you beat the highest score🥇, your score will replace the high score. Refreshing the browser will erese all highest scores.<br> ![YoullNeverGuessItJaredDinesGIF](https://user-images.githubusercontent.com/77369211/186801336-8cfa29fe-c938-42e4-978f-da8827993e2c.gif)
