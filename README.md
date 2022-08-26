@@ -19,7 +19,11 @@ Saving the users name. User input is added but needs update to save and display 
 
 download the code from the repo : https://tygrski.github.io/number-guess-game/
 
+You should see a display similar to this in your browser
+![number-game](https://user-images.githubusercontent.com/77369211/186801019-cc2dbadc-bbf3-46f5-82b7-092b532be5ba.jpg)
+
 ## Usage
 
-In your terminal of you IDE , open a node terminal and rin "live-server"
+In your terminal of you IDE , open a node terminal and run "live-server"
 Enter your guesss in the choces box. Try guessing until you win or your points run out. If you beat the highest score, your score will replace the high score. Refreshing the browser will erese all highest scores. 
+
